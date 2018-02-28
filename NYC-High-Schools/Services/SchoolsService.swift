@@ -28,7 +28,7 @@ class SchoolService {
                         let school = School(schoolName: schoolName, schoolEmail: schoolEmail, dbm: dbm)
                         self.schools.append(school)
                     }
-                    print(self.schools[0].schoolEmail)
+                    print(self.schools[0].schoolName)
                     completion(true)
                 }
             } else {

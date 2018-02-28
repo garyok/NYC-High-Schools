@@ -13,9 +13,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        SchoolService.instance.findAllSchool { (success) in
-            
-        }
         
     }
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1A50BD20467E7D009755FF /* SchoolViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A50BC20467E7D009755FF /* SchoolViewCell.swift */; };
+		BA1A50BF204680E3009755FF /* SchoolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1A50BE204680E3009755FF /* SchoolVC.swift */; };
 		BA490D9D2046757900AE7DEF /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA490D9B2046757800AE7DEF /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BA490DA02046758100AE7DEF /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA490D9F2046758000AE7DEF /* SwiftyJSON.framework */; };
 		BA490DA12046758100AE7DEF /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA490D9F2046758000AE7DEF /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -37,6 +39,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA1A50BC20467E7D009755FF /* SchoolViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolViewCell.swift; sourceTree = "<group>"; };
+		BA1A50BE204680E3009755FF /* SchoolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolVC.swift; sourceTree = "<group>"; };
 		BA490D9B2046757800AE7DEF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "NYC-High-Schools/Carthage/Build/iOS/Alamofire.framework"; sourceTree = "<group>"; };
 		BA490D9F2046758000AE7DEF /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "NYC-High-Schools/Carthage/Build/iOS/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		BA540C0B20466CDB0062D5A9 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "NYC-High-Schools/Carthage/Build/iOS/Alamofire.framework"; sourceTree = "<group>"; };
@@ -130,6 +134,8 @@
 		BAD9513320466433009991E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA1A50BC20467E7D009755FF /* SchoolViewCell.swift */,
+				BA1A50BE204680E3009755FF /* SchoolVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -240,10 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1A50BD20467E7D009755FF /* SchoolViewCell.swift in Sources */,
 				BAD95123204662CB009991E6 /* ViewController.swift in Sources */,
 				BAD95121204662CB009991E6 /* AppDelegate.swift in Sources */,
 				BAD951372046647C009991E6 /* Constants.swift in Sources */,
 				BAD9513B2046659D009991E6 /* School.swift in Sources */,
+				BA1A50BF204680E3009755FF /* SchoolVC.swift in Sources */,
 				BAD9513920466509009991E6 /* SchoolsService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

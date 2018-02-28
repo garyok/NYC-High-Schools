@@ -10,5 +10,5 @@ import Foundation
 
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
-let URL_GET_SCHOOLS = "https://data.cityofnewyork.us/resource/97mf-9njv.json"
+let URL_GET_SCHOOLS = "https://data.cityofnewyork.us/resource/97mf-9njv.json?$limit=2"
 let URL_GET_SAT_INFORMATION = "https://data.cityofnewyork.us/resource/734v-jeq5.json"
